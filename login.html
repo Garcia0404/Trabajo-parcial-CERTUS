@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>ExceLEARN-Iniciar sesión</title>
+        <link rel="stylesheet" href="css/stylelogin.css">
+        <link rel="icon" type="image/x-icon" href="img/excelearn.ico">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">ExceLEARN</a>
+                </div>
+                <ul>
+                    <li class="login">
+                        <a href="login.html">
+                            <img src="img/user.png" alt="user" class="user">
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#">
+                            <img src="img/menu.png" alt="menu" class="menu-icon">
+                        </a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </header>
+        
+        <div class="login-form">
+            <h1>¡Bienvenido de nuevo!</h1>
+            <form action="procesar_formulario.php" method="post">
+                <div class="form-mail">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" placeholder="Nombre de usuario" required>
+                </div>
+
+                <div class="form-password">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" placeholder="Contraseña" required>
+                </div>
+
+                <div class="form-g">
+                    <div class="guardar">    
+                        <input type="checkbox" id="Guardar" name="Guardar">
+                        <label for="Guardar">Guardar el correo electrónico</label>
+                    </div>
+                    <a href="#">¿Olvidó su contraseña?</a>
+                </div>
+            
+                <div class="button-login">
+                    <button type="submit">Iniciar sesión</button>
+                </div>
+            </form>
+            <div>
+                <p class="o">- o inicie sesión con -</p>
+                <div class="icons">
+                    <div>
+                        <a href="#"><img src="img/google.svg" alt="google_icon" class="icon1"></a>
+                        <a href="#"><img src="img/facebook.svg" alt="google_icon" class="icon2"></a>
+                        <a href="#"><img src="img/linkedin.svg" alt="google_icon" class="icon3"></a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="nueva-cuenta">
+                <a href="nuevo.html">Crear una nueva cuenta</a>
+            </div>
+            
+        </div>
+
+        <div class="politica">
+            <a href="#" class="p1">POLÍTICA DE PRIVACIDAD</a>
+            <a href="#" class="p2">CONDICIONES DE CONTRATACIÓN</a>
+            <a href="#" class="p3">POLÍTICA DE COOKIES</a>
+            <a href="#" class="p3">AVISO LEGAL</a>
+        </div>
+        
+        <footer>
+            <p>Copyright &copy; 2023 ExceLEARN - Cursos de Excel</p>
+        </footer>
+    </body>
+
+
+
+</html>

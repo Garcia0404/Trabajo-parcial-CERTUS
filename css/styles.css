@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    color: #262626;
+    
+}
+/*Inicio de la barra de navegación ---------------------------------------- */
+header {
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    color: #262626;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.logo {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    
+
+}
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+li {
+    padding-block: 15px;
+}
+
+.user,
+.menu-icon {
+    width: 25px;
+    height: 25px;  
+    margin-right: 10px;  
+}
+/*Fin de la barra de navegación ---------------------------------------- */
+
+/*Inicio --------------------------------------------------------------- */
+
+.contenedor {
+    position: relative;
+    
+}
+
+.student {
+    width: 100%;
+    
+}
+
+.texto1 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color:#262626;
+    font-size: 20px;
+    text-align: center;
+    /*
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #262626;
+    font-size: 20px;
+    text-align: center;
+    width: 70%; 
+    */
+}
+#p1 {
+    font-weight: bold;
+    color: #323437;
+}
+
+#btn1,
+#btn2 {
+    
+    background-color: #262626; /* Color de fondo del botón, ajusta según tu paleta de colores */
+    color: #DFE5F2; /* Color del texto del botón */
+    padding: 15px 30px; /* Espaciado interno del botón, ajusta según tu diseño */
+    font-size: 18px; /* Tamaño del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+}
+
+/* Estilo adicional para resaltar el botón al pasar el ratón sobre él */
+#btn1:hover,
+#btn2:hover {
+    background-color:#999999; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+
+/*Inicio --------------------------------------------------------------- */
+
+/*Información----------------------------------------------------------- */
+
+.informacion_breve {
+    display: flex;
+    padding-block: 10%;
+    padding-inline: 10%;
+    
+}
+
+h1{
+    text-align: center;
+}
+.info1,
+.info2,
+.info3 {
+    padding: 20px;
+}
+
+.img1,
+.img2,
+.img3 {
+    color: #262626;
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #262626;
+
+    
+}
+
+.inf1,
+.inf2,
+.inf3 {
+    text-align: center;
+
+}
+
+
+
+
+
+footer {
+    font-size: 20px;
+    background-color: #262626;
+    color: #F2F2F2;
+    padding: 1%;
+}

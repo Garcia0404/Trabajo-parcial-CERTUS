@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    color: #262626;
+    
+}
+/*Inicio de la barra de navegación ---------------------------------------- */
+header {
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    color: #262626;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between 
+    
+}
+
+.logo {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    
+
+}
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+li {
+    padding-block: 15px;
+}
+
+.user,
+.menu-icon {
+    width: 25px;
+    height: 25px;  
+    margin-right: 10px;  
+}
+/*Fin de la barra de navegación ---------------------------------------- */
+/*Formulario-------------------------------------------------------------*/
+.part1 {
+    border: 1px solid #ccc; /* Añadido para el borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding-top: 15%;
+    padding-bottom: 25%;
+    padding-inline: 25%;
+}
+h1 {
+    text-align: center;
+}
+
+#identificacion {
+    display: flex;
+    
+
+}
+.name {
+    margin-right: 25px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.last_name{
+    width: 50%;
+}
+.mail {
+    margin-bottom: 10px;
+}
+.password {
+    margin-bottom: 10px;
+}
+.name label {
+    display: block;
+}
+.last_name label {
+    display: block;
+}
+.mail label {
+    display: block;
+
+}
+.password label {
+    display: block;
+}
+
+#nombre,
+#apellido,
+#correo,
+#contraseña {
+    background-color: #AAB3BF;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px #ccc;
+    padding: 10px;
+}
+.check {
+    margin-bottom: 10px;
+}
+.send button {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/*-----------------------------------------------------------------------*/
+.o {
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.nueva-cuenta {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Espaciado superior para el enlace de nueva cuenta */
+}
+.icon1,
+.icon2,
+.icon3 {
+    width: 25px;
+    height: 25px;
+}
+.button-login button {
+    background-color: #262626;
+    color: #DFE5F2;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+}
+/*Fin    del formulario         ---------------------------------------- */
+
+.politica {
+    padding-inline: 10px;
+    padding-block: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.politica a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+footer {
+    font-size: 20px;
+    background-color: #262626;
+    color: #F2F2F2;
+    padding: 1%;
+}

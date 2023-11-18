@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>ExceLEARN-Cuenta nueva</title>
+        <link rel="stylesheet" href="css/stylenew.css">
+        <link rel="icon" type="image/x-icon" href="img/excelearn.ico">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">ExceLEARN</a>
+                </div>
+                <ul>
+                    <li class="login">
+                        <a href="login.html">
+                            <img src="img/user.png" alt="user" class="user">
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#">
+                            <img src="img/menu.png" alt="menu" class="menu-icon">
+                        </a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </header>
+        <div class="part1">
+            <h1>Crear un nueva cuenta</h1>
+            <form action="#" method="post" id="formulario">
+                <div id="identificacion">
+                    <div class="name">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="last_name">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" placeholder="Apellido" required>
+                    </div>
+                </div>
+                <div class="mail">
+                    <label for="correo">Email:</label>
+                    <input type="email" id="correo" placeholder="Email" required>
+                </div>
+                <div class="password">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" placeholder="Contraseña" required>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="acepto" required>
+                    <label for="acepto">He leído y acepto los <a href="#">Términos y Condiciones.</a></label>
+                </div>
+                <div class="send">
+                    <button type="submit">Registrarse</button>
+                </div>
+            </form>
+            <div>
+                <p class="o">- o inicie sesión con -</p>
+                <div class="icons">
+                    <div>
+                        <a href="#"><img src="img/google.svg" alt="google_icon" class="icon1"></a>
+                        <a href="#"><img src="img/facebook.svg" alt="google_icon" class="icon2"></a>
+                        <a href="#"><img src="img/linkedin.svg" alt="google_icon" class="icon3"></a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="nueva-cuenta">
+                <a href="login.html">¡Ya tengo una cuenta!</a>
+            </div>
+            
+        </div>
+
+        <div class="politica">
+            <a href="#" class="p1">POLÍTICA DE PRIVACIDAD</a>
+            <a href="#" class="p2">CONDICIONES DE CONTRATACIÓN</a>
+            <a href="#" class="p3">POLÍTICA DE COOKIES</a>
+            <a href="#" class="p3">AVISO LEGAL</a>
+        </div>
+        
+        <footer>
+            <p>Copyright &copy; 2023 ExceLEARN - Cursos de Excel</p>
+        </footer>
+
+        
+    </body>
+</html>
