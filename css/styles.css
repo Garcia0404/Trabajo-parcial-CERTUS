@@ -1,17 +1,14 @@
 body {
     margin: 0px;
     color: #262626;
+    font-family: serif;
     
 }
 /*Inicio de la barra de navegación ---------------------------------------- */
-header {
-    background-color:white;
-    margin: 0px;
-    padding: 0px;
-    color: #262626;
-    
+header{
+    background-color: #4A6D8C;
+    color: #F2F2F2;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between ;
@@ -19,17 +16,15 @@ header {
 }
 
 .logo {
-    font-family: serif;
     font-size: 30px;
-    font-weight: bold;
     padding: 15px;
-    
-
 }
+
 .logo a {
     text-decoration: none;
     color: inherit;
 }
+
 ul {
     display: flex;
     list-style: none;
@@ -42,112 +37,84 @@ li {
 
 .user,
 .menu-icon {
-    width: 25px;
-    height: 25px;  
+    width: 30px;
+    height: 30px;  
     margin-right: 10px;  
 }
 /*Fin de la barra de navegación ---------------------------------------- */
+/* Contenido de la sección de inicio ------------------------------------*/
 
-/*Inicio --------------------------------------------------------------- */
-
-.contenedor {
-    position: relative;
-    
+.inicio {
+    display: flex;
+    margin: 2em;
 }
 
 .student {
-    width: 100%;
-    
-}
+    display: flex;
+    justify-content: center;
+    margin-right: 3em;
 
+}
+#student {
+    width: 100%;
+    height: auto;
+}
 .texto1 {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    color:#262626;
-    font-size: 20px;
     text-align: center;
-    /*
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    color: #262626;
-    font-size: 20px;
-    text-align: center;
-    width: 70%; 
-    */
+
+}
+.texto1 h1 {
+    font-size: 45px;
+    color: #324359;
 }
 #p1 {
-    font-weight: bold;
-    color: #323437;
+    font-size: 30px;
 }
 
 #btn1,
 #btn2 {
     
-    background-color: #262626; /* Color de fondo del botón, ajusta según tu paleta de colores */
-    color: #DFE5F2; /* Color del texto del botón */
-    padding: 15px 30px; /* Espaciado interno del botón, ajusta según tu diseño */
-    font-size: 18px; /* Tamaño del texto del botón */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados para el botón */
-    cursor: pointer; /* Cursor al pasar sobre el botón */
+    background-color: #324359;
+    color: #DFE5F2;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
-/* Estilo adicional para resaltar el botón al pasar el ratón sobre él */
-#btn1:hover,
-#btn2:hover {
-    background-color:#999999; /* Cambia el color de fondo al pasar el ratón sobre el botón */
-}
+/* Fin del contenido de la sección de inicio ----------------------------*/
 
-/*Inicio --------------------------------------------------------------- */
-
-/*Información----------------------------------------------------------- */
+/* Contenido de la sección de información -------------------------------*/
 
 .informacion_breve {
     display: flex;
-    padding-block: 10%;
-    padding-inline: 10%;
+    margin:10%;
     
 }
 
-h1{
-    text-align: center;
-}
 .info1,
 .info2,
 .info3 {
     padding: 20px;
+    text-align: center;
 }
-
+.informacion_breve h1 {
+    color: #324359;
+}
 .img1,
 .img2,
 .img3 {
-    color: #262626;
     width: 70px;
     height: 70px;
     display: block;
-    border-radius: 50%;
     margin: 0 auto;
-    border: 3px solid #262626;
-
-    
 }
 
-.inf1,
-.inf2,
-.inf3 {
-    text-align: center;
+/* Fin del contenido de la sección de información ----------------------*/
 
-}
-
-
-
-
+/* Contenido del pie de página -----------------------------------------*/
 
 footer {
     font-size: 20px;
